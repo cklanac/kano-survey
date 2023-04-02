@@ -20,7 +20,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "//json": "json-server ./public/data/db.json --port 3001 --host 0.0.0.0",
     "json": "json-server --watch ./public/data/db.json --no-cache --port 3001"
   },
   "proxy": "http://localhost:3001",
