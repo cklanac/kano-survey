@@ -22,10 +22,10 @@ const Question = ({ question }) => {
         {feature}
       </Typography>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} md={6}>
           <FormControl component="fieldset">
             <FormLabel component="legend">{positive}</FormLabel>
-            <RadioGroup row name={`q${id}-positive`}>
+            <RadioGroup name={`q${id}-positive`}>
               <FormControlLabel value="1" control={<Radio />} label="I like it" />
               <FormControlLabel value="2" control={<Radio />} label="I expect it" />
               <FormControlLabel value="3" control={<Radio />} label="I am neutral" />
@@ -34,7 +34,7 @@ const Question = ({ question }) => {
             </RadioGroup>
           </FormControl>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} md={6}>
           <FormControl component="fieldset">
             <FormLabel component="legend">{negative}</FormLabel>
             <RadioGroup row name={`q${id}-negative`}>

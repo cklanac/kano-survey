@@ -3,43 +3,43 @@
   "questions": [
     {
       "id": 1,
-      "question": "One-click purchase option?"
+      "feature": "One-click purchase option?"
     },
     {
       "id": 2,
-      "question": "Guest checkout option?"
+      "feature": "Guest checkout option?"
     },
     {
       "id": 3,
-      "question": "Real-time shipping cost updates?"
+      "feature": "Real-time shipping cost updates?"
     },
     {
       "id": 4,
-      "question": "Personalized product recommendations?"
+      "feature": "Personalized product recommendations?"
     },
     {
       "id": 5,
-      "question": "Responsive design for mobile devices?"
+      "feature": "Responsive design for mobile devices?"
     },
     {
       "id": 6,
-      "question": "Multiple payment options?"
+      "feature": "Multiple payment options?"
     },
     {
       "id": 7,
-      "question": "Save items for later?"
+      "feature": "Save items for later?"
     },
     {
       "id": 8,
-      "question": "Save items to favorites?"
+      "feature": "Save items to favorites?"
     },
     {
       "id": 9,
-      "question": "Price comparison tool?"
+      "feature": "Price comparison tool?"
     },
     {
       "id": 10,
-      "question": "Live chat support?"
+      "feature": "Live chat support?"
     }
   ]
 }
