@@ -1,23 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import Survey from './Survey';
+import LinearProgress from '@mui/material/LinearProgress';
 
 const SurveyLoader = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('https://cklanac-glowing-winner-69rgjj95xv2rvpw-3001.preview.app.github.dev/questions');
+      const response = await fetch('/questions');
       const jsonData = await response.json();
-      console.log(jsonData);
-      setData(jsonData);
+      setData({ questions: jsonData });
     }
     fetchData();
   }, []);
 
   return (
     <div>
-      {data}
-      {/* {data ? <Survey data={data} /> : <p>Loading survey...</p>} */}
+      {data ? <Survey data={data} /> : <LinearProgress />}
     </div>
   );
 };

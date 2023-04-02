@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-// import SurveyLoader from './SurveyLoaded';
+import SurveyLoader from './SurveyLoaded';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <SurveyLoader /> */}
-
+        <SurveyLoader />
+asdfasdf
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

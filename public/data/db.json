@@ -1,44 +1,45 @@
 {
+
   "questions": [
     {
       "id": 1,
-      "question": "How would you feel if our shopping cart had an instant one-click purchase option?"
+      "question": "One-click purchase option?"
     },
     {
       "id": 2,
-      "question": "How would you feel if our shopping cart offered a guest checkout option?"
+      "question": "Guest checkout option?"
     },
     {
       "id": 3,
-      "question": "How would you feel if our shopping cart displayed real-time shipping cost updates?"
+      "question": "Real-time shipping cost updates?"
     },
     {
       "id": 4,
-      "question": "How would you feel if our shopping cart provided personalized product recommendations?"
+      "question": "Personalized product recommendations?"
     },
     {
       "id": 5,
-      "question": "How would you feel if our shopping cart featured a responsive design for mobile devices?"
+      "question": "Responsive design for mobile devices?"
     },
     {
       "id": 6,
-      "question": "How would you feel if our shopping cart offered multiple payment options?"
+      "question": "Multiple payment options?"
     },
     {
       "id": 7,
-      "question": "How would you feel if our shopping cart allowed you to save items for later?"
+      "question": "Save items for later?"
     },
     {
       "id": 8,
-      "question": "How would you feel if our shopping cart provided detailed product information?"
+      "question": "Save items to favorites?"
     },
     {
       "id": 9,
-      "question": "How would you feel if our shopping cart included a price comparison tool?"
+      "question": "Price comparison tool?"
     },
     {
       "id": 10,
-      "question": "How would you feel if our shopping cart offered live chat support?"
+      "question": "Live chat support?"
     }
   ]
 }
